@@ -1,6 +1,4 @@
 files:
   - source: /sample(source).xml
     translation: /translations/%locale%_%original_file_name%
-    translation_replace: {
-    "en-DK_" : ""
-}
+    translate_content: '0'
