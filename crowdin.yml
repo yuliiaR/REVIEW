@@ -1,7 +1,6 @@
 files:
   - source: /localization/sample(source).xml
     translation: /localization/%locale%_%original_file_name%
-    "update_option" : "update_as_unapproved"
-    translation_replace: {
-    "en-DK_" : ""
-}
+    update_option: update_as_unapproved
+    translation_replace:
+      en-DK_: 
