@@ -1,6 +1,5 @@
 files:
-  - source: /localization/sample(source).xml
-    translation: /localization/%locale%_%original_file_name%
+  - source: /locale/translations/en-DK/components/*.xml
+    translation: /locale/translations/%locale%/components//%original_file_name%
     update_option: update_as_unapproved
-    translation_replace:
-      en-DK_: 
+    
