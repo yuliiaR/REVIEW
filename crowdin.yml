@@ -3,5 +3,5 @@ files:
     translation: /localization/%locale%_%original_file_name%
     "update_option" : "update_as_unapproved"
     translation_replace: {
-    "en-Dk_" : ""
+    "en-DK_" : ""
 }
