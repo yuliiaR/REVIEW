@@ -1,4 +1,7 @@
 files:
   - source: /sample(source).xml
     translation: /translations/%locale%_%original_file_name%
-    translate_content: '0'
+    "update_option" : "update_as_unapproved"
+    translation_replace: {
+    "en-Dk_" : ""
+}
