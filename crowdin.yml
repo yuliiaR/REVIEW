@@ -1,7 +1,0 @@
-files:
-  - source: /locale/translations/en-DK/components/*.xml
-    translation: /locale/translations/%locale%/components//%original_file_name%
-    languages_mapping:
-      locale:
-        en: en-DK
-    update_option: update_as_unapproved
